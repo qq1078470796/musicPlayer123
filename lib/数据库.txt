@@ -1,0 +1,11 @@
+create database music;
+create table MusicList
+(
+	song varchar (50) ,
+	songDataUrl varchar (200)  ,
+	singer varchar (20) ,
+	lrcUrl varchar (200) ,
+	album varchar (20) ,
+	bitRate int ,
+	dataSize float
+);
